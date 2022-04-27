@@ -6,7 +6,7 @@ installation
 mkdir $SPACK_ROOT/var/spack/repos/builtin/packages/mfem-basic-examples
 cp package.py $SPACK_ROOT/var/spack/repos/builtin/packages/mfem-basic-examples/package.py
 ```
-The dev branch on Gitlab can be installed by running
+The dev branch on Github can be installed by running
 ```bash
 spack install mfem-basic-examples@develop
 ```
