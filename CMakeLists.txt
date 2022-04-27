@@ -12,8 +12,6 @@ set(CMAKE_CXX_COMPILE_FLAGS
     "-Wextra"
     )
 
-# CMake modules
-set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/config/cmake/Modules)
 
 # set the project name
 project(st-mfem)
@@ -35,7 +33,7 @@ endif()
 # CMake modules
 message(${CMAKE_CURRENT_SOURCE_DIR})
 
-set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/config/cmake/modules)
+set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/config/cmake/Modules)
 
 find_package(BLAS REQUIRED)
 find_package(LAPACK REQUIRED)
