@@ -1,4 +1,4 @@
-# Building with spack
+# Installing as a package with spack
 `mfem-basic-examples` and its dependencies can be installed directly using spack.
 The `package.py` file for mfem-basic-examples needs to be copied to your local spack
 installation
@@ -22,11 +22,13 @@ The environment can be loaded by running
 spack load mfem-basic-examples
 ```
 
+### Running
 An example can then be run
 ```bash
 ex1 -o 2
 ```
 
+### Uninstall
 An installed version can be unistalled with
 ```bash
 spack uninstall mfem-basic-examples

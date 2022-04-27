@@ -106,5 +106,8 @@ Run artistic style on source code to auto-format it.
 astyle --options=<mfem-basic-examples-root>/config/mfem-basic-examples.astylerc <source>
 ```
 
+### Adding a new example
+When adding a new example in `examples/`, simply modify `examples/CMakeLists.txt` using the other examples as a guide.
+
 ## Spack packaging instructions
 Instructions for using spack to deploy this build as a package can be found in `spack/`.
