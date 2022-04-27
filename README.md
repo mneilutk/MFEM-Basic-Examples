@@ -106,5 +106,5 @@ Run artistic style on source code to auto-format it.
 astyle --options=<mfem-basic-examples-root>/config/mfem-basic-examples.astylerc <source>
 ```
 
-## Spack instructions
-Instructions for using spack can be found in spack/
+## Spack packaging instructions
+Instructions for using spack to deploy this build as a package can be found in `spack/`.
