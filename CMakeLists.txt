@@ -12,6 +12,8 @@ set(CMAKE_CXX_COMPILE_FLAGS
     "-Wextra"
     )
 
+# CMake modules
+set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/config/cmake/Modules)
 
 # set the project name
 project(st-mfem)
