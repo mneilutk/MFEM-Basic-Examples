@@ -30,7 +30,7 @@ spack edit mfem
 ```
 and change the contents to reflect the following
 ```bash
--    version('develop', branch='master')
+-    version('develop', branch='dev')
 +    version('develop', branch= NAMEOFBRANCH)
 ```
 
