@@ -2,11 +2,11 @@ from spack import *
 
 
 class MfemBasicExamples(CMakePackage):
-    """Structural mechanics solvers using MFEM."""
+    """Examples solvers using."""
 
     # FIXME: Add a proper url for your package's homepage here.
     # homepage = "https://www.example.com"
-    git = "https://github.com/mneilutk/MFEM-Basic-Examples.git"
+    git = "git@github.com:mneilutk/MFEM-Basic-Examples.git"
 
     maintainers = ["Michael Neilan", "Kiera Kean"]
 
